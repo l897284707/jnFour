@@ -1,0 +1,5 @@
+# Project exclude paths
+/chuanganqi/target/
+/day02-jedis/target/
+/day02-springboot-redis/target/
+/rabbitmy-hello/target/

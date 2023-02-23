@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: 8.130.41.226
+    database: 5
+    password: 123
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 8

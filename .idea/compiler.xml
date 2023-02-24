@@ -12,6 +12,7 @@
         <module name="day02-springboot-redis" />
         <module name="chuanganqi" />
         <module name="jnFour" />
+        <module name="day04-springboot-reliabi" />
         <module name="day03-rabbitmq-amqp-consumer" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="day02-springboot-redis" options="-parameters" />
       <module name="day03-rabbitmq-amqp" options="-parameters" />
       <module name="day03-rabbitmq-amqp-consumer" options="-parameters" />
+      <module name="day04-springboot-reliabi" options="-parameters" />
     </option>
   </component>
 </project>

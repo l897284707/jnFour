@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jnFour" />
         <module name="day02-jedis" />
+        <module name="day03-rabbitmq-amqp" />
         <module name="rabbitmy-hello" />
         <module name="day02-springboot-redis" />
         <module name="chuanganqi" />
+        <module name="jnFour" />
+        <module name="day03-rabbitmq-amqp-consumer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +20,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="chuanganqi" options="-parameters" />
       <module name="day02-springboot-redis" options="-parameters" />
+      <module name="day03-rabbitmq-amqp" options="-parameters" />
+      <module name="day03-rabbitmq-amqp-consumer" options="-parameters" />
     </option>
   </component>
 </project>

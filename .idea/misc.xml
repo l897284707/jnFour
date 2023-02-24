@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/day02-springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/chuanganqi/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmy-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-rabbitmq-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-rabbitmq-amqp-consumer/pom.xml" />
       </list>
     </option>
   </component>

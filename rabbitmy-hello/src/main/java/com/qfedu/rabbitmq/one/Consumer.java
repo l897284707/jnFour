@@ -36,6 +36,7 @@ public class Consumer {
          * 1.消费哪个队列
          * 2.消费成功之后是否要自动应答 true代表自动应答 false 代表手动应答
          */
+        System.out.println("C1等待接收消息....");
         channel.basicConsume(QUERY_NAME,true,deliverCallback,cancelCallback );
     }
 }

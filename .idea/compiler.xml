@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-service-api" />
         <module name="day02-jedis" />
         <module name="day03-rabbitmq-amqp" />
         <module name="rabbitmy-hello" />
         <module name="day02-springboot-redis" />
         <module name="chuanganqi" />
+        <module name="dubbo-service-consumer" />
         <module name="jnFour" />
+        <module name="dubbo-service-provider" />
         <module name="day04-springboot-reliabi" />
         <module name="day03-rabbitmq-amqp-consumer" />
       </profile>
@@ -24,6 +27,10 @@
       <module name="day03-rabbitmq-amqp" options="-parameters" />
       <module name="day03-rabbitmq-amqp-consumer" options="-parameters" />
       <module name="day04-springboot-reliabi" options="-parameters" />
+      <module name="day05-dubbo-springboot-demo" options="" />
+      <module name="dubbo-service-api" options="-parameters" />
+      <module name="dubbo-service-consumer" options="-parameters" />
+      <module name="dubbo-service-provider" options="-parameters" />
     </option>
   </component>
 </project>

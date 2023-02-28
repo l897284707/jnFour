@@ -8,10 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-service-api" />
         <module name="day02-jedis" />
-        <module name="day03-rabbitmq-amqp" />
-        <module name="rabbitmy-hello" />
         <module name="day02-springboot-redis" />
         <module name="chuanganqi" />
+        <module name="day06-spring-cloud-consumer" />
+        <module name="dubbo-service-api-demo2" />
+        <module name="dubbo-service-provider-demo2" />
+        <module name="day03-rabbitmq-amqp" />
+        <module name="dubbo-service-consum" />
+        <module name="rabbitmy-hello" />
+        <module name="day06-spring-cloud-provider" />
         <module name="dubbo-service-consumer" />
         <module name="jnFour" />
         <module name="dubbo-service-provider" />
@@ -28,9 +33,14 @@
       <module name="day03-rabbitmq-amqp-consumer" options="-parameters" />
       <module name="day04-springboot-reliabi" options="-parameters" />
       <module name="day05-dubbo-springboot-demo" options="" />
+      <module name="day06-spring-cloud-consumer" options="-parameters" />
+      <module name="day06-spring-cloud-provider" options="-parameters" />
       <module name="dubbo-service-api" options="-parameters" />
+      <module name="dubbo-service-api-demo2" options="-parameters" />
+      <module name="dubbo-service-consum" options="-parameters" />
       <module name="dubbo-service-consumer" options="-parameters" />
       <module name="dubbo-service-provider" options="-parameters" />
+      <module name="dubbo-service-provider-demo2" options="-parameters" />
     </option>
   </component>
 </project>

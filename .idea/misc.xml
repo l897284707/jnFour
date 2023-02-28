@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/day03-rabbitmq-amqp-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/day04-springboot-reliabi/pom.xml" />
         <option value="$PROJECT_DIR$/day05-dubbo-springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/day05-springboot-dubbo-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/day06-spring-cloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/day06-spring-cloud-consumer/pom.xml" />
       </list>
     </option>
   </component>

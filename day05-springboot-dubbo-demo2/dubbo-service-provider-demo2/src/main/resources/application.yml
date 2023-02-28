@@ -1,0 +1,7 @@
+server:
+  port: 9090
+dubbo:
+  application:
+    name: service-provider
+  registry:
+    address: zookeeper://8.130.41.226:2181

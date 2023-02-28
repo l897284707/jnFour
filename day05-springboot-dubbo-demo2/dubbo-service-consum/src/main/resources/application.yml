@@ -1,0 +1,9 @@
+server:
+  port: 9091
+dubbo:
+  application:
+    name: service-consumer
+  registry:
+    address: zookeeper://8.130.41.226:2181
+  consumer:
+    check: false

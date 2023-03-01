@@ -22,6 +22,7 @@
         <module name="jnFour" />
         <module name="dubbo-service-provider" />
         <module name="day06-eureka-server" />
+        <module name="day06-spring-cloud-zuul" />
         <module name="day04-springboot-reliabi" />
         <module name="day03-rabbitmq-amqp-consumer" />
       </profile>
@@ -38,6 +39,7 @@
       <module name="day06-eureka-server" options="-parameters" />
       <module name="day06-spring-cloud-consumer" options="-parameters" />
       <module name="day06-spring-cloud-provider" options="-parameters" />
+      <module name="day06-spring-cloud-zuul" options="-parameters" />
       <module name="dubbo-service-api" options="-parameters" />
       <module name="dubbo-service-api-demo2" options="-parameters" />
       <module name="dubbo-service-consum" options="-parameters" />

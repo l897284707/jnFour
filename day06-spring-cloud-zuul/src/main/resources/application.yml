@@ -1,0 +1,13 @@
+server:
+  port: 10010 #服务端口
+spring:
+  application:
+    name: gateway-zuul #指定服务名
+zuul:
+  routes: #Map<String,ZuulRoute> rutes
+    service-provider:
+      path: /service-provider/** #zuul网关直接访问的路径
+      url: http://localhost:8081 #path映射的访问路径
+    service-consumer:
+      path: /service-consumer/**
+      url: http://localhost:8082

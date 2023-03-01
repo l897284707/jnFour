@@ -5,3 +5,5 @@ spring:
     url: jdbc:mysql://8.130.41.226:3306/mybatis?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
     username: root
     password: Aa@123456
+  application:
+    name: service-consumer

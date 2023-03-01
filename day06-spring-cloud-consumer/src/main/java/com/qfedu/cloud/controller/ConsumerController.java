@@ -25,16 +25,16 @@ public class ConsumerController {
     //服务客户端
     @Autowired
     private DiscoveryClient discoveryClientl;
-    @GetMapping("user")
+    @GetMapping
     public User getUser(@RequestParam("id") Integer id){
         //根据注册的实例名称来获取实例
         List<ServiceInstance> instances = discoveryClientl.getInstances("service-provider");
-
+        ServiceInstance serviceInstance = instances.get(2);
+        String baseUrl = "http://" + serviceInstance.getHost() + ":"+serviceInstance.getPort()+"/user/"+id;
 
 
         //远程调用接口服务
-        String url = "http://localhost:8081/user/"+id;
-        User forObject = restTemplate.getForObject(url, User.class);
+        User forObject = restTemplate.getForObject(baseUrl, User.class);
         return forObject;
     }
 }

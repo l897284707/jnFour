@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -34,7 +35,7 @@
       <module name="day03-rabbitmq-amqp-consumer" options="-parameters" />
       <module name="day04-springboot-reliabi" options="-parameters" />
       <module name="day05-dubbo-springboot-demo" options="" />
-      <module name="day06-eureka-server" options="" />
+      <module name="day06-eureka-server" options="-parameters" />
       <module name="day06-spring-cloud-consumer" options="-parameters" />
       <module name="day06-spring-cloud-provider" options="-parameters" />
       <module name="dubbo-service-api" options="-parameters" />

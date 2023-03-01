@@ -1,0 +1,11 @@
+server:
+  port: 9091
+dubbo:
+  consumer:
+    check: true
+    retries: 5
+  # dubbo应用名称 对应车牌号 司机姓名 车类型
+  application:
+    name: service-consumer
+  registry:
+    address: zookeeper://8.130.41.226:2181 #注册中心地址

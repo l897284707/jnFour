@@ -8,14 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-service-api" />
+        <module name="springcloud_common" />
         <module name="day02-jedis" />
         <module name="day02-springboot-redis" />
         <module name="chuanganqi" />
         <module name="day06-spring-cloud-consumer" />
+        <module name="nacos_provider" />
         <module name="dubbo-service-api-demo2" />
+        <module name="nacos-common" />
         <module name="dubbo-service-provider-demo2" />
+        <module name="nacos-consumer" />
         <module name="day03-rabbitmq-amqp" />
         <module name="dubbo-service-consum" />
+        <module name="nacos-config" />
         <module name="rabbitmy-hello" />
         <module name="day06-spring-cloud-provider" />
         <module name="dubbo-service-consumer" />
@@ -24,6 +29,7 @@
         <module name="day06-eureka-server" />
         <module name="day06-spring-cloud-zuul" />
         <module name="day04-springboot-reliabi" />
+        <module name="nacos-provider" />
         <module name="day03-rabbitmq-amqp-consumer" />
       </profile>
     </annotationProcessing>
@@ -40,12 +46,19 @@
       <module name="day06-spring-cloud-consumer" options="-parameters" />
       <module name="day06-spring-cloud-provider" options="-parameters" />
       <module name="day06-spring-cloud-zuul" options="-parameters" />
+      <module name="day07-springcloud_parent" options="" />
       <module name="dubbo-service-api" options="-parameters" />
       <module name="dubbo-service-api-demo2" options="-parameters" />
       <module name="dubbo-service-consum" options="-parameters" />
       <module name="dubbo-service-consumer" options="-parameters" />
       <module name="dubbo-service-provider" options="-parameters" />
       <module name="dubbo-service-provider-demo2" options="-parameters" />
+      <module name="nacos-common" options="-parameters" />
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-provider" options="-parameters" />
+      <module name="nacos_provider" options="-parameters" />
+      <module name="springcloud_common" options="-parameters" />
     </option>
   </component>
 </project>

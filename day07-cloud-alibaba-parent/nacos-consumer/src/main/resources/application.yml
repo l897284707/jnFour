@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.128:8848

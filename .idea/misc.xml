@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/day06-spring-cloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/day06-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/day06-spring-cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/day07-cloud-alibaba-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/day07-springcloud_parent/pom.xml" />
       </list>
     </option>
   </component>

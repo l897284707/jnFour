@@ -36,6 +36,16 @@
     <file url="file://$PROJECT_DIR$/day06-spring-cloud-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day06-spring-cloud-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day06-spring-cloud-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/nacos-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/nacos-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/nacos-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-cloud-alibaba-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-springcloud_parent/nacos_provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-springcloud_parent/springcloud_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-springcloud_parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07-springcloud_parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmy-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmy-hello/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

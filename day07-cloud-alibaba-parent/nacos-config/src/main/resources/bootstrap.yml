@@ -1,0 +1,17 @@
+#2.4之前 bootstrap文件加载的顺序优先于application.yml文件间
+#开发配置中心需要建立配置文件
+#命名规则：${spring.applicaiton.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+server:
+  port: 10010
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.128:8848
+      config:
+        server-addr: 192.168.136.128:8848
+        file-extension: yaml  #指定配置中心的文件后缀
+  application:
+    name: nacos_config  #_
+    bootstrap:
+      enabled: true   #默认先加载bootstrap

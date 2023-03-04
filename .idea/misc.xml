@@ -8,7 +8,6 @@
         <option value="$PROJECT_DIR$/day02-jedis/pom.xml" />
         <option value="$PROJECT_DIR$/day02-springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/chuanganqi/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmy-hello/pom.xml" />
         <option value="$PROJECT_DIR$/day03-rabbitmq-amqp/pom.xml" />
         <option value="$PROJECT_DIR$/day03-rabbitmq-amqp-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/day04-springboot-reliabi/pom.xml" />
@@ -20,10 +19,11 @@
         <option value="$PROJECT_DIR$/day06-spring-cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/day07-cloud-alibaba-parent/pom.xml" />
         <option value="$PROJECT_DIR$/day07-springcloud_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-rabbitmq-demo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

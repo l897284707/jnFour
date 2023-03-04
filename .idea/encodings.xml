@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file:///F:/tools/repository/org/springframework/boot/spring-boot-starter-parent/2.3.4.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file:///F:/tools/repository/org/springframework/boot/spring-boot-starter-parent/2.5.3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chuanganqi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chuanganqi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day02-jedis/src/main/java" charset="UTF-8" />
@@ -11,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/day03-rabbitmq-amqp-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day03-rabbitmq-amqp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day03-rabbitmq-amqp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03-rabbitmq-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03-rabbitmq-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day04-springboot-reliabi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day04-springboot-reliabi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day05-dubbo-springboot-demo/dubbo-service-api/src/main/java" charset="UTF-8" />
@@ -55,7 +59,5 @@
     <file url="file://$PROJECT_DIR$/rabbitmy-hello/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://F:/tools/repository/org/springframework/boot/spring-boot-starter-parent/2.3.4.RELEASE/src/main/resources" charset="UTF-8" />
-    <file url="file://F:/tools/repository/org/springframework/boot/spring-boot-starter-parent/2.5.3/src/main/resources" charset="UTF-8" />
   </component>
 </project>

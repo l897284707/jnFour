@@ -29,15 +29,18 @@
         <module name="dubbo-service-api-demo2" />
         <module name="sentinel-provider" />
         <module name="dubbo-service-provider-demo2" />
-        <module name="rabbitmy-hello" />
         <module name="api-gateway" />
         <module name="day06-eureka-server" />
         <module name="day06-spring-cloud-zuul" />
         <module name="nacos_consumer" />
         <module name="day04-springboot-reliabi" />
         <module name="day03-rabbitmq-amqp-consumer" />
+        <module name="day03-rabbitmq-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmy-hello" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

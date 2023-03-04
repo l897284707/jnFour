@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: sentinel-consumer #自定义的路由 ID，保持唯一
+          uri: lb://sentinel-consumer #lb代表从注册中心获取服务
+          predicates:
+            - Path=/consumer/** #路由条件，返回一个布尔值结果
+server:
+  port: 9527

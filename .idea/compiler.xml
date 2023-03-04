@@ -17,16 +17,20 @@
         <module name="day03-rabbitmq-amqp" />
         <module name="dubbo-service-consum" />
         <module name="nacos-config" />
+        <module name="sentinel-feign" />
         <module name="day06-spring-cloud-provider" />
         <module name="dubbo-service-consumer" />
         <module name="jnFour" />
         <module name="dubbo-service-provider" />
         <module name="nacos-provider" />
+        <module name="sentinel-consumer" />
         <module name="day02-springboot-redis" />
         <module name="day06-spring-cloud-consumer" />
         <module name="dubbo-service-api-demo2" />
+        <module name="sentinel-provider" />
         <module name="dubbo-service-provider-demo2" />
         <module name="rabbitmy-hello" />
+        <module name="api-gateway" />
         <module name="day06-eureka-server" />
         <module name="day06-spring-cloud-zuul" />
         <module name="nacos_consumer" />
@@ -37,6 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="chuanganqi" options="-parameters" />
       <module name="day02-springboot-redis" options="-parameters" />
       <module name="day03-rabbitmq-amqp" options="-parameters" />
@@ -60,6 +65,9 @@
       <module name="nacos-provider" options="-parameters" />
       <module name="nacos_consumer" options="-parameters" />
       <module name="nacos_provider" options="-parameters" />
+      <module name="sentinel-consumer" options="-parameters" />
+      <module name="sentinel-feign" options="-parameters" />
+      <module name="sentinel-provider" options="-parameters" />
       <module name="springcloud_common" options="-parameters" />
     </option>
   </component>
